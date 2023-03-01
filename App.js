@@ -1,14 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import StackNavigator from './StackNavigator';
 import HomeScreen from './screens/HomeScreen';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <StackNavigator/>
+    // <View style={styles.container}>
      
-      <HomeScreen/>
-      <StatusBar style="auto" />
-    </View>
+    //   <HomeScreen/>
+    //   <StatusBar style="auto" />
+    // </View>
   );
 }
 

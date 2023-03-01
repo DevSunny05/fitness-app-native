@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
   },
   homeImage: {
     width: "90%",
-    height: 120,
+    height: 150,
     marginTop: 20,
     borderRadius: 7,
   },
